@@ -28,10 +28,6 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			/*if (i != 99 || j != 99)
-			{
-				
-			}*/
 		}
 	}
 
