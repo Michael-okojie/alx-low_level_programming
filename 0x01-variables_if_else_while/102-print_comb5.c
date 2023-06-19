@@ -25,8 +25,8 @@ int main(void)
 			{
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
