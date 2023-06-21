@@ -2,7 +2,8 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * Return:
+ * @c: Character to be checked
+ * Return: returns the absolute value
  */
 
 int _abs(int c)
