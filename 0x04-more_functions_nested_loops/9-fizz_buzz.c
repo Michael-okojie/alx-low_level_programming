@@ -6,7 +6,6 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	int i;
@@ -19,7 +18,6 @@ int main(void)
 		if (fizz == 0)
 		{
 			printf("Fizz");
-
 		}
 		else if (buzz == 0)
 		{
