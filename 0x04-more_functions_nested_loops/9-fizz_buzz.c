@@ -15,7 +15,7 @@ int main(void)
 		int fizz = i % 3;
 		int buzz = i % 5;
 
-		if (fizz == 0 )
+		if (fizz == 0)
 		{
 			printf("Fizz ");
 
