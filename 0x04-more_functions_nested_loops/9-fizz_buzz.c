@@ -12,18 +12,15 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		int fizz = i % 3;
-		int buzz = i % 5;
-
-		if (fizz == 0)
+		if (i % 3 == 0 && i % 5 !=0)
 		{
 			printf(" Fizz");
 		}
-		else if (buzz == 0)
+		else if (i % 5 == 0 && i %3 != 0)
 		{
 			printf(" Buzz");
 		}
-		else if (buzz == 0 && fizz == 0)
+		else if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf(" FizzBuzz");
 		}
