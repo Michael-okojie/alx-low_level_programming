@@ -19,7 +19,8 @@ int prime_a(int a, int b)
 }
 
 /**
- * is_prime_number - recursive function to check if a number is a prime number or not
+ * is_prime_number - recursive function to check if a
+ *  number is a prime number or not
  * @n: number to be checked
  * Return: if its prim eor not
  */
