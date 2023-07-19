@@ -4,9 +4,9 @@
 /**
  * int_index - function that searches for an integer
  * @array: the array
- * @size: size of the array
- * @action: pointer to the funtion to use
- * Return: nil
+ * @size: number of elements in array
+ * @cmp: pointer to the funtion to use to compare
+ * Return: the index
 **/
 int int_index(int *array, int size, int (*cmp)(int))
 {
